@@ -1,0 +1,112 @@
+#chatbot {
+    position: fixed;
+    bottom: 0; /* Moved to the very bottom */
+    right: 10px;
+    width: 300px;
+    background-color: white;
+    border: 2px solid #4caf50; /* A darker green to complement the header */
+    border-radius: 8px; /* Rounded corners for a smoother look */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* A more pronounced shadow for depth */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligns children to the bottom */
+    height: 200px; /* Define a fixed height for the chatbot container */
+    overflow-y: auto; /* Vertical scrolling if needed */
+    word-wrap: break-word; /* This will wrap long words */
+}
+.header {
+    /* Original styles without the background-color property */
+    background-color: #B9D883;
+    padding: 20px 10px; /* Increased padding for a larger header */
+    text-align: center;
+    border-bottom: 3px solid #B9D883; /* A darker border at the bottom of the header for depth */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for a lifting effect */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A more modern font */
+    font-size: 2em; /* Larger font size for the title */
+}
+
+/* If you have a subtitle or description, you might want to style it too */
+.header p {
+    font-size: 1em; /* Smaller font size than the title */
+    margin-top: 5px; /* Space between the title and the subtitle */
+    opacity: 0.8; /* Slightly transparent for less emphasis */
+}
+
+.header p {
+    font-size: 0.8em; /* Smaller font size than the title */
+    margin-top: 5px; /* Space between the title and the subtitle */
+    opacity: 0.8; /* Slightly transparent for less emphasis */
+}
+
+.catering-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catering-offer img {
+    max-width: 150px; /* Set the maximum width of the image */
+    border: 1px solid #ccc; /* Add a 1px solid border around the image */
+    border-radius: 5px; /* Add rounded corners to the image */
+    margin: 0 10px; /* Add margin to separate the images */
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #B9D883; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button to bright white */
+    border: 2px solid #B9D883; /* Add a 2px solid border around the button */
+    padding: 10px 20px; /* Set the padding of the button */
+    cursor: pointer; /* Set the cursor to pointer when hovering over the button */
+    font-family: Arial, sans-serif; /* Change the font family of the button text */
+}
+
+.product button:hover {
+    background-color: #555;
+}
+.header nav ul {
+    list-style-type: none; /* Remove the bullet points from the list */
+    padding: 0; /* Remove the default padding */
+    margin: 0; /* Remove the default margin */
+}
+
+.header nav ul li {
+    display: inline; /* Display the list items horizontally */
+    margin-right: 20px; /* Add some space between the list items */
+}
+
+.header nav ul li a {
+    text-decoration: none; /* Remove the underline from the links */
+    color: #333; /* Set the color of the links */
+    font-weight: bold; /* Set the font weight to bold */
+    font-size: 16px; /* Set the font size to match the p element */
+}

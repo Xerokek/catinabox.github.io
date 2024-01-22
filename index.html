@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat in a Box</title>
+    <style>
+        body {
+            background-color: #e8f5e9; /* A light green color */
+            font-family: Arial, sans-serif;
+        }
+      .header img {
+    display: block;
+    /*margin: 0 auto; */
+    max-width: 350px; /* Set the maximum width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    /* border-radius: 10px; /* Add rounded corners to the image */
+}
+        
+        #chat-input {
+            width: calc(100% - 90px); /* Adjust width to make room for the button */
+            padding: 5px;
+            margin-right: 5px;
+            box-sizing: border-box;
+            margin-bottom: 2px;
+            
+        }
+        #send-button {
+            width: 80px;
+            padding: 5px;
+            background-color: #4caf50; /* Themed button color */
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            
+        }
+        #send-button:hover {
+            background-color: #66bb6a; /* Lighter green on hover */
+        }
+        
+       
+    </style>
+</head>
+<body>
+    
+
+    <div class="header">
+        <img src="logo.png" style="display: block; margin: 0 auto;">
+      
+        <p>Catering dla każdego!</p>
+        <nav>
+            <ul>
+                <li><a href="#">Strona główna</a></li>
+                <li><a href="#">Oferta</a></li>
+                <li><a href="#">O nas</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Chatbot Element -->
+    <div id="chatbot">
+        <input type="text" id="chat-input" placeholder="Potrzbujesz pomocy? Napisz!" ;>
+        <button type="button" id="send-button" onclick="sendMessage()">Send</button>
+    </div>
+       
+    <!-- Add the standard catering offer with an image and a button -->
+    <section class="products">
+        <article class="product">
+            <img src="standard.jpeg" alt="Candle 1">
+            <h2>Standard</h2>
+            <p>Dieta w wersji standardowej 2000 kcal</p>
+            <p>Cena: 68zł/dzień </p>
+            <button>Dodaj do koszyka</button>
+        </article>
+
+        <article class="product">
+            <img src="premium.jpeg" alt="Candle 2">
+            <h2>Premium</h2>
+            <p>Dieta premium 2500 kcal</p>
+            <p>Cena: 80zł/dzień</p>
+            <button>Dodaj do koszyka</button>
+        </article>
+   
+
+
+
+
+    
+
+
+
+    
+</script>
+</body>
+</html>
