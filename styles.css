@@ -110,3 +110,34 @@
     font-weight: bold; /* Set the font weight to bold */
     font-size: 16px; /* Set the font size to match the p element */
 }
+.header {
+    position: relative;
+}
+
+.cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white; /* Set the background color to white */
+    border: 1px solid #ccc; /* Add a 1px solid border around the cart */
+    border-radius: 5px; /* Add rounded corners to the cart */
+    padding: 5px 10px; /* Set the padding of the cart */
+    color: black; /* Set the text color to black */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically */
+    margin-top: 255px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.cart img {
+    width: 20px; /* Set the width of the image */
+    height: 20px; /* Set the height of the image */
+    vertical-align: middle; /* Align the image vertically in the middle */
+    margin-right: 5px; /* Add some right margin to the image */
+}
+.header img {
+    display: block; /* Set the display property to block */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    padding: 0; /* Set the padding to 0 */
+    margin: 0; /* Set the margin to 0 */
+}
