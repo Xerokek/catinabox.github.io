@@ -1,3 +1,4 @@
+
 #chatbot {
     position: fixed;
     bottom: 0; /* Moved to the very bottom */
@@ -14,7 +15,9 @@
     height: 200px; /* Define a fixed height for the chatbot container */
     overflow-y: auto; /* Vertical scrolling if needed */
     word-wrap: break-word; /* This will wrap long words */
+ 
 }
+
 .header {
     /* Original styles without the background-color property */
     background-color: #B9D883;
